@@ -3,8 +3,8 @@
 
 ## 💡 Technologies Used
 
-  - ReactJS
-  - Tailwindcss
+  - React
+  - Tailwind CSS
 
 
 ## ⚙️ Run Locally
