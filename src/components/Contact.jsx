@@ -8,19 +8,18 @@ const Contact = () => {
         <h2 className="text-4xl font-extrabold mb-8 text-gray-900 dark:text-white">Contact Us</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Visit Our Store</h3>
+            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Visit our workplace</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              123 Main Street, Cityville, State, 12345
+              16 Johan Street, Chadè Manor, Parsons Vlei, Port Elizabeth, 6025
             </p>
           </div>
           <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Contact Information</h3>
             <p className="text-gray-600 dark:text-gray-300">
-              Phone: (123) 456-7890 <br />
-              Email: info@example.com
+              Ethan: 081 279 9063 <br />
+              Elroid: 065 815 4146
             </p>
           </div>
-          {/* Add a contact form or additional contact details as needed */}
         </div>
       </div>
     </section>

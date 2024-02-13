@@ -6,19 +6,17 @@ const About = () => {
     <section id="about" className="bg-gray-100 dark:bg-gray-800 py-16">
       <div className="container mx-auto flex flex-col items-center justify-center">
         <h2 className="text-4xl font-extrabold mb-8 text-gray-900 dark:text-white">About Us</h2>
-        <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl text-center mb-8">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed vitae risus nec est facilisis laoreet.
-          Suspendisse potenti. Quisque nec tellus a odio commodo dictum. Proin hendrerit dolor vel velit ultricies,
-          vitae accumsan metus consectetur.
+        <p className="text-lg text-gray-700 dark:text-gray-300 max-w-2xl text-center mb-8 p-4">
+          Welcome to Elroid's Enterprise, your trusted partner for affordable PC and TV repair services in Port Elizabeth. We understand the importance of your devices in your daily life, which is why we are committed to providing top-notch repair solutions at the most competitive prices in the area.
         </p>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">John Doe</h3>
-            <p className="text-gray-600 dark:text-gray-300">Repair Specialist</p>
+        <div className="flex md:flex-row xsm:flex-col flex-wrap justify-center "> 
+          <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md m-5 ">
+            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Ethan Diedericks</h3>
+            <p className="text-gray-600 dark:text-gray-300">I.T Technician</p>
           </div>
-          <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md">
-            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Jane Smith</h3>
-            <p className="text-gray-600 dark:text-gray-300">Customer Support</p>
+          <div className="bg-white dark:bg-gray-900 p-6 rounded-lg shadow-md m-5 ">
+            <h3 className="text-xl font-semibold mb-2 text-gray-800 dark:text-white">Elroid Diedericks</h3>
+            <p className="text-gray-600 dark:text-gray-300">Electronics Technician</p>
           </div>
         </div>
       </div>

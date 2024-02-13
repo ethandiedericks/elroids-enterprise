@@ -1,4 +1,3 @@
-/* eslint-disable no-unused-vars */
 import React from 'react';
 import assets from '../assets';
 
@@ -28,7 +27,7 @@ const Hero = () => {
         </div>
         
         <div className="lg:w-1/2">
-          <img src={assets.hero} alt="Hero Image" />
+          <img src={assets.hero} alt="Hero Image" className="hidden md:block object-contain" />
         </div>
         
       </div>
